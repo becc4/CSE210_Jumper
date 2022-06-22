@@ -3,8 +3,6 @@ import random
 class word():
     
     def __init__(self):
-        
-        _word_Len = 0
         _chosen_Word = ''
 
     def gen_Word(self):
@@ -17,4 +15,7 @@ class word():
         self._chosen_Word = _wordList[random.randint(0,len(_wordList))]
 
     def word_Len(self):
-        return self._chosen_Word.len()
+        return len(self._chosen_Word)
+
+    def get_Word(self):
+        return self._chosen_Word
