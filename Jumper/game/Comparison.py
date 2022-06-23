@@ -1,18 +1,13 @@
 
 class comparison():
-
+#Check if the user input matches the letter of the word
     def compare(word,user_input):
         list_of_text = list(word)
-        letter = user_input
+        _user_letter = user_input
 
-        for letters in list_of_text:
-            pass
+        for i in list_of_text:
+            if i == _user_letter:
+                return True
 
-
-        #compares if the user input matches a letter in the word 
-
-        #returns either true or false 
-
-
-
-
+            else:
+                return False
