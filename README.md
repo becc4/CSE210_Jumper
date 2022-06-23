@@ -42,4 +42,4 @@ root                      (Project root folder)
 ## Authors
 * Caleb Malcarne (mal18002@byui.edu)
 * Rebecca Roeth (roe21002@byui.edu)
-* insert your info here please  
+* Cameron Christensen (cchris20002@byui.edu)
