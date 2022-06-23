@@ -4,9 +4,10 @@ These are the rules:
 
 1. the game starts with a mystery word chosen
 2. the man in his parachute apears
-3. enter your guess for a ltter in the mystery word
+3. enter your guess for a letter in the mystery word
 4. if your guess is correct yout letter apears in the correct blank space
 5. if your word is incorrect a line from the parachute will be cut!
+6. if you are wrong to many times, all the lines will be cut!, and you _lose_
 
 ---
 
