@@ -1,5 +1,5 @@
 # CSE210_Jumper
-Welcome to the **_Jumper_** Game, try not to let the paracuter fall!
+Welcome to the **_Jumper_** Game, try not to let the paracuter fall
 These are the rules:
 
 1. the game starts with a mystery word chosen
