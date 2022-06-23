@@ -43,3 +43,7 @@ root                      (Project root folder)
 * Caleb Malcarne (mal18002@byui.edu)
 * Rebecca Roeth (roe21002@byui.edu)
 * Cameron Christensen (cchris20002@byui.edu)
+<<<<<<< HEAD
+=======
+* Logan Hitchcock (hit19002@byui.edu)
+>>>>>>> 2d40d65e85738eec87cbe14f2d9c62062f4c397e
