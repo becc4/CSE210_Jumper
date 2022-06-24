@@ -1,6 +1,6 @@
-from game.display import Display
-from game.comparison import Comparison
-from game.word import Word
+from game.display import display
+from game.Comparison import comparison
+from game.Word import word
 
 class Director:
     """ A person who directs the game. 
@@ -21,11 +21,11 @@ class Director:
         Args: 
             self (Director): an instance of Director.
         """
-        self._word = Word()
+        self._word = word()
         self.answers = []
-        self._comparison = Comparison()
+        self._comparison = comparison()
         self._is_playing = True
-        self._display = Display()
+        self._display = display()
 
     def start_game(self):
         """Starts the game by running the main game loop.
@@ -38,7 +38,7 @@ class Director:
             # shows display
             self._get_inputs()
             # Asks for inputs
-            self.do_updates()
+            self._get_updates()
             # Makes sure game is still going
         
         self._do_outputs()
@@ -50,7 +50,7 @@ class Director:
         Args:
             self (Director): An instance of Director.
         """
-        self._display.display_jumper(self._word, self.answers, self._is_playing)
+        self._display.display_jumper()
             # What will this need? Will it need both the word and comparison, and if so,
             # does that mean I should put it independently?
     
@@ -76,3 +76,4 @@ class Director:
             self (Director): An instance of Director.
         """
         self._comparison(self.answers, self._word)
+        self._display.update_jumper()
